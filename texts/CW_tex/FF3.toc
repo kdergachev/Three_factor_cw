@@ -1,0 +1,15 @@
+\babel@toc {nil}{}
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Asset pricing models}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Stock pricing}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Theoretical basis}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}New factors explaining returns}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Underlying research}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}The model}{10}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Empirical tests}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Tools}{11}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}The data}{11}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Procedure}{13}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Results}{14}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Conclusions}{20}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Shortcomings}{20}{subsection.4.1}%
