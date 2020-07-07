@@ -8,7 +8,7 @@ import pandas as pd
 import os
 
 # !!!!! set wd manually. Path up to (including) FF3_CW-master here !!!!!!!!!
-FF3_in = r"C:\Users\kiril_000\Desktop\pr\FF3_CW"
+FF3_in = r"C:\Users\kiril_000\Desktop\pr\FF3_better"
 os.chdir(FF3_in + r"\data")
 
 req = rq.get((r"https://www.treasury.gov/resource-center/data-chart-center"

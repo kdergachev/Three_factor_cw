@@ -9,7 +9,7 @@ import statsmodels.api as sm
 
 # !!!!! put path to FF3_CW-master (including itself) in FF3_in !!!!! 
 # then data will be properly written/taken from folders
-FF3_in = r"C:\Users\kiril_000\Desktop\pr\FF3_CW"
+FF3_in = r"C:\Users\kiril_000\Desktop\pr\FF3_better"
 os.chdir(FF3_in + r"\data\results")
 
 def to_num(value):
@@ -254,13 +254,11 @@ indx2 = [["fits"],
 indx2 = pd.MultiIndex.from_product(indx2)
 fits = pd.DataFrame(columns=indx2, index=list(Sz.keys()))
 
-
 for i in regr:
     #print(i)
     names = i.split("|")
     rgrs = sm.OLS(prepdta[i], ex, missing="drop")
     rgrs = rgrs.fit()
-    print(sm.stats.diagnostic.acorr_breusch_godfrey(rgrs, 5)[1])
     for j in rgrs.params.index:
         cf = rgrs.params[j]
         results.loc[names[1], ("coef", j, names[0])] = float(cf)
@@ -275,7 +273,7 @@ for i in regr:
 
 results = pd.concat((results, fits), axis=1)
 
-results.to_latex("res.txt")
+# results.to_latex("res.txt")
 results.to_excel(outname1)
 
 
