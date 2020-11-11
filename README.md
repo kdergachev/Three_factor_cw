@@ -1,3 +1,4 @@
+!!!! Non stationary series were run in empirical tests so conclusions should be reviewed !!!!
 # Tests of 3 factor model coursework
 The model is the one based on K. French & E. Fama (1993) work "Common risk factors in the returns on
 stocks and bonds"
